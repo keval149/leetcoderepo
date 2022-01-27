@@ -1,7 +1,19 @@
 # My First Program
+#
+# def main():
+#     print("Hello World!")
+#
+# if __name__ == "__main__":
+#     main()
 
-def main():
-    print("Hello World!")
+class hello:
+    def __init__(self, s: str, year: int) -> None:
+        self.greeting = s
+        self.year = year
 
-if __name__ == "__main__":
-    main()
+    def printHello(self) -> str:
+        return self.greeting + " {}".format(self.year)
+
+obj = hello("Hello World!",2022)
+result = obj.printHello()
+print(result)
