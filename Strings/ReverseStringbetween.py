@@ -18,8 +18,9 @@ inp = ["This", "is", "a", "new", "pen"]
 j = 1
 k = 3
 obj = reverseString(inp,j,k)
+print ("The original is {}".format(inp))
 result = obj.reverseStringbetween()
-print ("The reverse is {}".format(result))
+print ("The reverse from {} to {} is {}".format(j,k,result))
 
 '''
 Time complexity : O(n)
