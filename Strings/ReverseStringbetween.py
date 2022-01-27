@@ -21,5 +21,10 @@ obj = reverseString(inp,j,k)
 result = obj.reverseStringbetween()
 print ("The reverse is {}".format(result))
 
+'''
+Time complexity : O(n)
+Space complexity : O(1)
+'''
+
 
 
