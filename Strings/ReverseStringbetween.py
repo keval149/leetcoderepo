@@ -22,6 +22,13 @@ print ("The original is {}".format(inp))
 result = obj.reverseStringbetween()
 print ("The reverse from {} to {} is {}".format(j,k,result))
 
+
+'''
+Output is : 
+The original is ['This', 'is', 'a', 'new', 'pen']
+The reverse from 1 to 3 is ['This', 'new', 'a', 'is', 'pen']
+'''
+
 '''
 Time complexity : O(n)
 Space complexity : O(1)
