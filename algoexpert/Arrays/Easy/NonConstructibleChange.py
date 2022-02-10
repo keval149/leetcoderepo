@@ -18,4 +18,3 @@ coins = [1,2,5]
 obj = Solution()
 result = obj.nonConstructibleChange(coins)
 print("Non Constructible Change using the {} coins is {}".format(coins,result))
-
