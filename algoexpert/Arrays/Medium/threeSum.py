@@ -20,7 +20,9 @@ class Solution:
         '''
         print(nums)
         #ptr =0
-        for i in range(0,len(nums)-2):
+        #for i in range(0,len(nums)-2):
+        i = 0
+        while (i < len(nums)-2):
             print("for loop i value is: {}".format(i))
             for j in range(i+1,len(nums)-1):
                 print("second for loop i value is: {}".format(i))
@@ -32,11 +34,11 @@ class Solution:
                     result.append(temp)
                     temp = []
                 i = hmap[nums[i]]
-                i = i + 1
+
                 print("hasmap i value is: {}".format(i))
                 # this is done to avoid repeating duplicate values to be considered again and keeping result unique like [-1,-1,-1,....]
                 j = hmap[nums[j]]
-                j = j + 1
+
                 # same as above
 
         return result
